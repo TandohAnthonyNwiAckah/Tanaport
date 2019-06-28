@@ -1,0 +1,87 @@
+/*Author:Tandoh Anthony Nwi-Ackah*/
+/*Email:tanamoinc@gmail.com*/
+/*Country:Ghana*/
+/*Date:  Feb 10,2018*/
+/*Company: Tanamo Inc.*/
+
+/***************************************************THE START**********************************************************/
+
+* {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+}
+
+::selection {
+    background: #000;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+a {
+    color: #fff;
+}
+
+.back {
+    color: #5D4037;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+.back:hover {
+    background-color: #5D4037;
+    color: #fff;
+    text-decoration: none;
+}
+
+.back-text {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #5D4037;
+}
+
+.owl-carousel.owl-loaded {
+    margin-top: 50px;
+}
+
+.item img {
+    height: 450px;
+    width: 50%;
+}
+
+@media (max-width: 769px) {
+    .item img {
+        height: 300px;
+    }
+}
+
+.title {
+    margin-top: -15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hr-port {
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.badge {
+    background-color: #ff9123;
+}
+
+footer {
+    text-align: center;
+    color: #5D4037;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/*************************************************THE END**************************************************************/
