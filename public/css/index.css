@@ -241,7 +241,7 @@ hr {
 }
 
 #we {
-    color: #E64A19;
+    color: #E91E63;
 }
 
 #we:hover {
@@ -249,7 +249,7 @@ hr {
 }
 
 #stack {
-    color: #6ecadc;
+    color: #E64A19;
 }
 
 #stack:hover {
@@ -261,7 +261,7 @@ hr {
     top: 0;
     width: 51%;
     height: 100%;
-    background: #5D4037;
+    background: #ff5D4037;
     z-index: 1000;
     -webkit-transform: translateX(0);
     /* Chrome, Opera 15+, Safari 3.1+ */
@@ -409,6 +409,11 @@ hr {
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #fff;
     background-color: #2f3642;
+}
+
+.naa > li > a {
+    color: #5D4037;
+    text-transform: uppercase;
 }
 
 #particles-js {

@@ -3,8 +3,8 @@
 * 01.PRELOADING
 * ----------------------------------------------------------------------------------------
 */
-$(document).ready(function() {
-    setTimeout(function() {
+$(document).ready(function () {
+    setTimeout(function () {
         $('body').addClass('loaded');
         $('h1').css('color', '#ff9123');
     }, 2500);
@@ -16,7 +16,7 @@ $(document).ready(function() {
 * 02.SMOOTH SCROLLING
 * ----------------------------------------------------------------------------------------
 */
-$('a[href*="#"]:not([href="#"])').click(function() {
+$('a[href*="#"]:not([href="#"])').click(function () {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -51,14 +51,14 @@ $("html").niceScroll({
 * 04.NAVIGATION
 * ----------------------------------------------------------------------------------------
 */
-$(window).on('scroll', function() {
+$(window).on('scroll', function () {
     if ($(".navbar").offset().top > 300) {
         $(".navbar").addClass("navbar-inverse");
     } else {
         $(".navbar").removeClass("navbar-inverse");
     }
 });
-$(window).bind('DOMContentLoaded load resize', function() {
+$(window).bind('DOMContentLoaded load resize', function () {
     if ($(window).innerWidth() <= 769) {
         $(".navbar").addClass("navbar-inverse");
     } else {
@@ -71,9 +71,9 @@ $(window).bind('DOMContentLoaded load resize', function() {
 * 05.TYPED WRITER
 * ----------------------------------------------------------------------------------------
 */
-$(function() {
+$(function () {
     $(".typed").typed({
-        strings: ["Tandoh", "Anthony", "Nwi-Ackah", "Welcomes","You there"],
+        strings: ["Think Twice", "Code Once!!!", "Hello there!!"],
         typeSpeed: 80,
         backSpeed: 80,
         showCursor: true,
@@ -86,8 +86,8 @@ $(function() {
 * 06.SKILLBAR
 * ----------------------------------------------------------------------------------------
 */
-jQuery(document).ready(function() {
-    jQuery('.skillbar').each(function() {
+jQuery(document).ready(function () {
+    jQuery('.skillbar').each(function () {
         jQuery(this).find('.skillbar-bar').animate({
             width: jQuery(this).attr('data-percent')
         }, 6000);
@@ -99,7 +99,7 @@ jQuery(document).ready(function() {
 * 07.ISOTOPE
 * ----------------------------------------------------------------------------------------
 */
-$(window).load(function() {
+$(window).load(function () {
     var $container = $('.port-container');
     $container.isotope({
         filter: '*',
@@ -110,7 +110,7 @@ $(window).load(function() {
         }
     });
 
-    $('.portfolioFilter a').click(function() {
+    $('.portfolioFilter a').click(function () {
         $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
 
