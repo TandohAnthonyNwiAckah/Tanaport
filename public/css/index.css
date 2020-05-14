@@ -412,7 +412,8 @@ hr {
 }
 
 .naa > li > a {
-    color: #5D4037;
+/*     color: #5D4037; */
+    color: #FFFFFF;
     text-transform: uppercase;
 }
 
