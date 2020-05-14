@@ -1,8 +1,15 @@
 /*Author:Tandoh Anthony Nwi-Ackah*/
+<<<<<<< HEAD
 /*Email:tanamoinc@gmail.com*/
 /*Country:Ghana*/
 /*Date:  Feb 10,2018*/
 /*Company: Tanamo Inc.*/
+=======
+/*Email  anthony.tandoh@tanacom.io*/
+/*Country:Ghana*/
+/*Date:  Feb 10,2018*/
+/*Company: Tanacom Limited.*/
+>>>>>>> new projects added
 
 /***************************************************THE START**********************************************************/
 
@@ -427,7 +434,11 @@ hr {
 .welcome-particles {
     position: relative;
     font-family: 'Maven Pro', sans-serif;
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: #ff9123;
+>>>>>>> new projects added
     text-align: center;
     z-index: 15;
     top: 30%;
@@ -458,6 +469,11 @@ hr {
     max-width: 100%;
     height: 100vh;
     background-image: url('../img/back.jpg');
+<<<<<<< HEAD
+=======
+    /* background-color: #00000000;
+    background:-o-linear-gradient(top,#64B5F6 25%,#42A5F5 75%); */
+>>>>>>> new projects added
     background-attachment: fixed;
     background-size: cover;
     position: relative;
