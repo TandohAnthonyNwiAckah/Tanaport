@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thank You | Tandoh Anthony</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Outfit Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <style>
+      body {
+        font-family: "Outfit", sans-serif;
+        background-image: url("../public/img/back.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-align: center;
+      }
+
+      .thank-you-box {
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(10px);
+        padding: 50px 35px;
+        border-radius: 16px;
+        max-width: 480px;
+        width: 90%;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+      }
+
+      .thank-you-box i.main-icon {
+        font-size: 70px;
+        color: #4caf50;
+        margin-bottom: 20px;
+      }
+
+      .thank-you-box h1 {
+        font-weight: 700;
+        margin-bottom: 12px;
+        font-size: 32px;
+      }
+
+      .thank-you-box p {
+        font-size: 16px;
+        opacity: 0.9;
+        margin: 6px 0;
+      }
+
+      .btn-home {
+        margin-top: 30px;
+        background: linear-gradient(135deg, #ff6b6b, #e74c3c);
+        color: #fff;
+        padding: 14px 34px;
+        border-radius: 50px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        box-shadow: 0 10px 25px rgba(231, 76, 60, 0.4);
+        transition: all 0.3s ease;
+      }
+
+      .btn-home:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 15px 35px rgba(231, 76, 60, 0.6);
+        background: linear-gradient(135deg, #ff7b7b, #c0392b);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="thank-you-box">
+      <i class="fa-solid fa-circle-check main-icon"></i>
+      <h1>Thank You!</h1>
+      <p>Your message has been sent successfully.</p>
+      <p>I’ll get back to you as soon as possible.</p>
+
+      <a href="/" class="btn-home">
+        <i class="fa-solid fa-arrow-left"></i>
+        Back to Portfolio
+      </a>
+    </div>
+  </body>
+</html>

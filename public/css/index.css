@@ -2,10 +2,21 @@
 /*Email  anthony.tandoh@tanacom.io*/
 
 
+
+
 /***************************************************THE START**********************************************************/
 
+/***************************************************
+                    FONT IMPORT
+***************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+/***************************************************/
+
+
+
 * {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 500;
     max-width: 100%;
 }
@@ -51,7 +62,7 @@ hr {
     border: 2px solid #ff9123;
 }
 
-@media ( max-width: 500px) {
+@media (max-width: 500px) {
     .contact-box {
         padding-top: 10px;
     }
@@ -72,7 +83,7 @@ hr {
         margin-right: 250px;
     }
 
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
         color: #fff;
     }
 
@@ -185,6 +196,7 @@ hr {
         transform: rotate(0deg);
         /* Firefox 16+, IE 10+, Opera */
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         /* Chrome, Opera 15+, Safari 3.1+ */
@@ -204,6 +216,7 @@ hr {
         transform: rotate(0deg);
         /* Firefox 16+, IE 10+, Opera */
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         /* Chrome, Opera 15+, Safari 3.1+ */
@@ -359,12 +372,14 @@ hr {
     max-height: 350px;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav>li>a {
     color: #fff;
     text-transform: uppercase;
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
     border-bottom: 3px solid #fff;
     background-color: #5D4037;
     color: #fff;
@@ -375,7 +390,8 @@ hr {
     -o-transition: .5s ease-in-out;
 }
 
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
     height: 400px;
     float: none;
 }
@@ -394,7 +410,8 @@ hr {
     background-color: #5D4037;
 }
 
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
     border-color: #fff;
 }
 
@@ -404,13 +421,15 @@ hr {
     position: absolute;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
     color: #fff;
     background-color: #2f3642;
 }
 
-.naa > li > a {
-/*     color: #5D4037; */
+.naa>li>a {
+    /*     color: #5D4037; */
     color: #FFFFFF;
     text-transform: uppercase;
 }
@@ -473,9 +492,11 @@ hr {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -485,9 +506,11 @@ hr {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -497,9 +520,11 @@ hr {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -548,9 +573,11 @@ hr {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -560,9 +587,11 @@ hr {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -572,9 +601,11 @@ hr {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -658,11 +689,13 @@ hr {
         transform: translate(0, 0);
         -moz-transform: translate(0, 0);
     }
+
     50% {
         -webkit-transform: translate(0, 10px);
         transform: translate(0, 10px);
         -moz-transform: translate(0, 10px);
     }
+
     100% {
         -webkit-transform: translate(0, 0);
         transform: translate(0, 0);
@@ -718,11 +751,13 @@ hr {
         transform: translate(0, 0);
         -moz-transform: translate(0, 0);
     }
+
     50% {
         -webkit-transform: translate(0, 10px);
         transform: translate(0, 10px);
         -moz-transform: translate(0, 10px);
     }
+
     100% {
         -webkit-transform: translate(0, 0);
         transform: translate(0, 0);
@@ -1019,7 +1054,7 @@ footer {
     border-radius: 50%;
     text-align: center;
     font-size: 30px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     transition: transform 0.3s ease;
 }
