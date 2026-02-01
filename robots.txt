@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tandohanthonynwiackah.github.io/Tanaport/sitemap.xml
